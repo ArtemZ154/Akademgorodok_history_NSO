@@ -28,6 +28,10 @@
     src: url("../../Source/all/aktiv-grotesk/AktivGroteskCorp-Bold.ttf");
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .head {
     text-align: center;
     position: relative;
