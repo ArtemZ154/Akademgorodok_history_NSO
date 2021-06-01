@@ -30,6 +30,8 @@
 
 .head {
     text-align: center;
+    position: relative;
+    left: 4vw;
 }
 
 .a_tegs_url {
@@ -65,4 +67,107 @@
 hr {
     position: relative;
     top: -1vw;
+}
+
+
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "main_history main_attraction";
+}
+
+.main_history {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "main_history_img2 main_history_img1"
+      "main_history_img3 main_history_text"
+      ". main_history_text";
+    grid-area: main_history;
+    height: 25vw;
+    width: 41vw;
+}
+
+.main_history_img1 {
+    grid-area: main_history_img1;
+}
+
+.main_history_img2 {
+    grid-area: main_history_img2;
+}
+
+.main_history_img3 {
+    grid-area: main_history_img3;
+}
+
+.main_history_text {
+    grid-area: main_history_text;
+    font-family: aktiv-grotesk_m;
+    font-size: 1.8vw;
+}
+
+.main_attraction {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "main_attraction_img1 main_attraction_img2"
+      "main_attraction_text main_attraction_img3"
+      "main_attraction_text .";
+    grid-area: main_attraction;
+    height: 25vw;
+    width: 41vw;
+    position: relative;
+    left: 7.9vw;
+}
+
+.main_attraction_text {
+    grid-area: main_attraction_text;
+    font-family: aktiv-grotesk_m;
+    font-size: 1.8vw;
+}
+
+.main_attraction_img1 {
+    grid-area: main_attraction_img1;
+}
+
+.main_attraction_img2 {
+    grid-area: main_attraction_img2;
+}
+
+.main_attraction_img3 {
+    grid-area: main_attraction_img3;
+}
+
+.main_history_image {
+    width: 20vw;
+}
+
+.a_historu_url_main {
+    color: rgb(11, 15, 10);
+    position: relative;
+    top: 1vw;
+    font-size: 1.717vw;
+    background-color: rgb(237, 255, 225);
+    border: 1px solid rgb(124, 255, 112);
+    border-radius: 2vw;
+}
+
+.a_attraction_url_main {
+    width: 100vw;
+    position: relative;
+    left: -0.1vw;
+    top: 1vw;
+    color: rgb(11, 15, 10);
+    font-size: 1.5vw;
+    background-color: rgb(237, 255, 225);
+    border: 1px solid rgb(124, 255, 112);
+    border-radius: 2vw;
 }

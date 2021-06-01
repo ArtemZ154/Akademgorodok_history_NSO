@@ -1,0 +1,70 @@
+@font-face {
+    font-family: SST_light;
+    src: url("../../Source/all/SST_light/SST-Light.ttf");
+}
+
+@font-face {
+    font-family: SST_UL;
+    src: url("../../Source/all/SST_UL/SST-UltraLight.ttf");
+}
+
+@font-face {
+    font-family: BebasNeue;
+    src: url("../../Source/all/BebasNeue/bebasneuelight.ttf");
+}
+
+@font-face {
+    font-family: aktiv-grotesk_m;
+    src: url("../../Source/all/aktiv-grotesk/AktivGroteskCorp-Medium.ttf");
+}
+
+@font-face {
+    font-family: aktiv-grotesk_l;
+    src: url("../../Source/all/aktiv-grotesk/AktivGroteskCorp-Regular.ttf");
+}
+
+@font-face {
+    font-family: aktiv-grotesk_b;
+    src: url("../../Source/all/aktiv-grotesk/AktivGroteskCorp-Bold.ttf");
+}
+
+.head {
+    text-align: center;
+    position: relative;
+    left: 4vw;
+}
+
+.a_tegs_url {
+    text-decoration: none;
+    color: black;
+    text-decoration: none;
+    font-family: aktiv-grotesk_m;
+    font-size: 1.5vw;
+    position: relative;
+    top: -5vw;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .5s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.a_tegs_url:hover {
+    background-size: 100% 2px;
+}
+
+.a_attraction_url {
+    position: relative;
+    left: 4vw;
+}
+
+.img_logo_head {
+    width: 12vw;
+    position: relative;
+    left: 2vw;
+}
+
+hr {
+    position: relative;
+    top: -1vw;
+}
